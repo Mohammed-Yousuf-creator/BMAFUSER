@@ -1,0 +1,548 @@
+{
+  "format_version": 1,
+  "forecast_hour": 24,
+  "variables": {
+    "temperature": {
+      "New Delhi": {
+        "variable": "temperature",
+        "location": "New Delhi",
+        "forecast_hour": 24,
+        "transform": "identity",
+        "weight_aifs": 0.32821555465875085,
+        "weight_gfs": 0.6717844453412491,
+        "aifs_intercept": 19.165911728687664,
+        "aifs_slope": 0.35670672335944403,
+        "aifs_sigma": 1.2965689267728338,
+        "gfs_intercept": 4.387284646297754,
+        "gfs_slope": 0.7197394927344458,
+        "gfs_sigma": 3.324530553572491,
+        "n_samples": 615,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Mumbai": {
+        "variable": "temperature",
+        "location": "Mumbai",
+        "forecast_hour": 24,
+        "transform": "identity",
+        "weight_aifs": 0.042763844992320964,
+        "weight_gfs": 0.957236155007679,
+        "aifs_intercept": 20.0,
+        "aifs_slope": 0.11432371454677563,
+        "aifs_sigma": 0.39035022723578056,
+        "gfs_intercept": 14.094700457361677,
+        "gfs_slope": 0.4869571074840328,
+        "gfs_sigma": 1.2957309215370854,
+        "n_samples": 615,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Bengaluru": {
+        "variable": "temperature",
+        "location": "Bengaluru",
+        "forecast_hour": 24,
+        "transform": "identity",
+        "weight_aifs": 0.04233118266454068,
+        "weight_gfs": 0.9576688173354593,
+        "aifs_intercept": 19.970452348491484,
+        "aifs_slope": 0.03820739217166581,
+        "aifs_sigma": 0.4985846345446932,
+        "gfs_intercept": 19.65022202888897,
+        "gfs_slope": 0.23674451228411234,
+        "gfs_sigma": 1.3430735829283116,
+        "n_samples": 615,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Kolkata": {
+        "variable": "temperature",
+        "location": "Kolkata",
+        "forecast_hour": 24,
+        "transform": "identity",
+        "weight_aifs": 0.8810786099418052,
+        "weight_gfs": 0.1189213900581948,
+        "aifs_intercept": 13.012443492731533,
+        "aifs_slope": 0.558195039866275,
+        "aifs_sigma": 1.4220954808777264,
+        "gfs_intercept": -3.1087488608104916,
+        "gfs_slope": 0.9778601889159154,
+        "gfs_sigma": 1.0795447794291642,
+        "n_samples": 615,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Chennai": {
+        "variable": "temperature",
+        "location": "Chennai",
+        "forecast_hour": 24,
+        "transform": "identity",
+        "weight_aifs": 0.320088073488354,
+        "weight_gfs": 0.679911926511646,
+        "aifs_intercept": -0.21286135190768457,
+        "aifs_slope": 0.9573949531817273,
+        "aifs_sigma": 0.7736569791412492,
+        "gfs_intercept": 6.428787839337618,
+        "gfs_slope": 0.8296142925097603,
+        "gfs_sigma": 1.42375938273549,
+        "n_samples": 615,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Ahmedabad": {
+        "variable": "temperature",
+        "location": "Ahmedabad",
+        "forecast_hour": 24,
+        "transform": "identity",
+        "weight_aifs": 0.8854104456411652,
+        "weight_gfs": 0.11458955435883478,
+        "aifs_intercept": 17.075452571618595,
+        "aifs_slope": 0.3663098084310802,
+        "aifs_sigma": 2.327451079778271,
+        "gfs_intercept": -2.319325395496082,
+        "gfs_slope": 0.8340315967230877,
+        "gfs_sigma": 0.5573078535441871,
+        "n_samples": 615,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Hyderabad": {
+        "variable": "temperature",
+        "location": "Hyderabad",
+        "forecast_hour": 24,
+        "transform": "identity",
+        "weight_aifs": 0.08945342767581643,
+        "weight_gfs": 0.9105465723241836,
+        "aifs_intercept": -11.11715952926805,
+        "aifs_slope": 1.2871194986539918,
+        "aifs_sigma": 0.5287519570354573,
+        "gfs_intercept": 16.261476261146605,
+        "gfs_slope": 0.4445080656373322,
+        "gfs_sigma": 1.891049379751167,
+        "n_samples": 615,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Pune": {
+        "variable": "temperature",
+        "location": "Pune",
+        "forecast_hour": 24,
+        "transform": "identity",
+        "weight_aifs": 0.2994091174759689,
+        "weight_gfs": 0.7005908825240311,
+        "aifs_intercept": 18.585243578710823,
+        "aifs_slope": 0.29585716025288816,
+        "aifs_sigma": 0.5391560739686467,
+        "gfs_intercept": 19.882737189519947,
+        "gfs_slope": 0.27264498134981635,
+        "gfs_sigma": 2.015729540631998,
+        "n_samples": 615,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Jaipur": {
+        "variable": "temperature",
+        "location": "Jaipur",
+        "forecast_hour": 24,
+        "transform": "identity",
+        "weight_aifs": 0.13476970727037985,
+        "weight_gfs": 0.8652302927296202,
+        "aifs_intercept": 9.048426082286934,
+        "aifs_slope": 0.8806822055238896,
+        "aifs_sigma": 0.9669900072642874,
+        "gfs_intercept": 11.067834406517543,
+        "gfs_slope": 0.5664150098280711,
+        "gfs_sigma": 2.4748605751661854,
+        "n_samples": 615,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Lucknow": {
+        "variable": "temperature",
+        "location": "Lucknow",
+        "forecast_hour": 24,
+        "transform": "identity",
+        "weight_aifs": 0.35982647366051496,
+        "weight_gfs": 0.640173526339485,
+        "aifs_intercept": 18.787940824456804,
+        "aifs_slope": 0.3509958378871396,
+        "aifs_sigma": 1.0829543639122856,
+        "gfs_intercept": 7.82374948612717,
+        "gfs_slope": 0.634475740813733,
+        "gfs_sigma": 3.3372396974181573,
+        "n_samples": 615,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      }
+    },
+    "precipitation": {
+      "New Delhi": {
+        "variable": "precipitation",
+        "location": "New Delhi",
+        "forecast_hour": 24,
+        "transform": "log1p",
+        "weight_aifs": 0.2792140887402016,
+        "weight_gfs": 0.7207859112597984,
+        "aifs_intercept": 1.3732086273477393,
+        "aifs_slope": 0.33186808874479085,
+        "aifs_sigma": 1.023974213825695,
+        "gfs_intercept": 0.00013000466518888474,
+        "gfs_slope": 0.03034763120889052,
+        "gfs_sigma": 0.029999999999999995,
+        "n_samples": 607,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Mumbai": {
+        "variable": "precipitation",
+        "location": "Mumbai",
+        "forecast_hour": 24,
+        "transform": "log1p",
+        "weight_aifs": 0.4724631821317277,
+        "weight_gfs": 0.5275368178682722,
+        "aifs_intercept": 0.8260332615475381,
+        "aifs_slope": 1.1013573563465437,
+        "aifs_sigma": 1.0815359541415233,
+        "gfs_intercept": 4.2793536883529986e-05,
+        "gfs_slope": 0.0009579669274764323,
+        "gfs_sigma": 0.029999999999999995,
+        "n_samples": 610,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Bengaluru": {
+        "variable": "precipitation",
+        "location": "Bengaluru",
+        "forecast_hour": 24,
+        "transform": "log1p",
+        "weight_aifs": 0.5226316444340775,
+        "weight_gfs": 0.4773683555659225,
+        "aifs_intercept": 0.00032953127846938025,
+        "aifs_slope": 0.0006281123399199893,
+        "aifs_sigma": 0.029999999999999995,
+        "gfs_intercept": 1.0230941800232223,
+        "gfs_slope": 0.5582917152193081,
+        "gfs_sigma": 1.0018885900129342,
+        "n_samples": 604,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Kolkata": {
+        "variable": "precipitation",
+        "location": "Kolkata",
+        "forecast_hour": 24,
+        "transform": "log1p",
+        "weight_aifs": 0.654483598624158,
+        "weight_gfs": 0.34551640137584205,
+        "aifs_intercept": -3.81604109187374e-05,
+        "aifs_slope": 0.00437790704684437,
+        "aifs_sigma": 0.029999999999999995,
+        "gfs_intercept": 1.671406606206373,
+        "gfs_slope": 0.35181700347666184,
+        "gfs_sigma": 1.1188871324995504,
+        "n_samples": 605,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Chennai": {
+        "variable": "precipitation",
+        "location": "Chennai",
+        "forecast_hour": 24,
+        "transform": "log1p",
+        "weight_aifs": 0.3857436019224542,
+        "weight_gfs": 0.6142563980775457,
+        "aifs_intercept": 1.3168444500509353,
+        "aifs_slope": 0.683261405279572,
+        "aifs_sigma": 1.1144455630783425,
+        "gfs_intercept": 4.362033677905689e-05,
+        "gfs_slope": 0.0021615934931039377,
+        "gfs_sigma": 0.029999999999999995,
+        "n_samples": 608,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Ahmedabad": {
+        "variable": "precipitation",
+        "location": "Ahmedabad",
+        "forecast_hour": 24,
+        "transform": "log1p",
+        "weight_aifs": 0.32686363113548655,
+        "weight_gfs": 0.6731363688645134,
+        "aifs_intercept": 0.8680225256184131,
+        "aifs_slope": 0.6569357312316569,
+        "aifs_sigma": 1.073982273240221,
+        "gfs_intercept": -1.2855806685918219e-05,
+        "gfs_slope": 0.02519566242531433,
+        "gfs_sigma": 0.029999999999999995,
+        "n_samples": 611,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Hyderabad": {
+        "variable": "precipitation",
+        "location": "Hyderabad",
+        "forecast_hour": 24,
+        "transform": "log1p",
+        "weight_aifs": 0.3792851808079152,
+        "weight_gfs": 0.6207148191920848,
+        "aifs_intercept": 1.2084884539647915,
+        "aifs_slope": 0.5811804131494881,
+        "aifs_sigma": 1.0309453539703575,
+        "gfs_intercept": 8.60459041969236e-06,
+        "gfs_slope": 4.432937332096514e-06,
+        "gfs_sigma": 0.029999999999999995,
+        "n_samples": 609,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Pune": {
+        "variable": "precipitation",
+        "location": "Pune",
+        "forecast_hour": 24,
+        "transform": "log1p",
+        "weight_aifs": 0.41001882834683967,
+        "weight_gfs": 0.5899811716531603,
+        "aifs_intercept": 0.8791664535918138,
+        "aifs_slope": 0.6084827622722017,
+        "aifs_sigma": 1.0797403335281022,
+        "gfs_intercept": 0.00012074887573833878,
+        "gfs_slope": 0.003858971877642608,
+        "gfs_sigma": 0.029999999999999995,
+        "n_samples": 612,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Jaipur": {
+        "variable": "precipitation",
+        "location": "Jaipur",
+        "forecast_hour": 24,
+        "transform": "log1p",
+        "weight_aifs": 0.7606139483006575,
+        "weight_gfs": 0.23938605169934246,
+        "aifs_intercept": 0.0005812161450811436,
+        "aifs_slope": 0.0015713239102579403,
+        "aifs_sigma": 0.029999999999999995,
+        "gfs_intercept": 1.3591960503516392,
+        "gfs_slope": 0.5512321485971512,
+        "gfs_sigma": 1.0747179701086258,
+        "n_samples": 607,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      },
+      "Lucknow": {
+        "variable": "precipitation",
+        "location": "Lucknow",
+        "forecast_hour": 24,
+        "transform": "log1p",
+        "weight_aifs": 0.2530147188743788,
+        "weight_gfs": 0.7469852811256212,
+        "aifs_intercept": 1.349993447663167,
+        "aifs_slope": 0.5754546588332957,
+        "aifs_sigma": 0.9972141285953349,
+        "gfs_intercept": 0.00034228908323027886,
+        "gfs_slope": 0.004976749170600759,
+        "gfs_sigma": 0.029999999999999995,
+        "n_samples": 603,
+        "training_start": "2025-01-01",
+        "training_end": "2025-12-31"
+      }
+    }
+  },
+  "metadata": {
+    "training_period": [
+      "2025-01-01",
+      "2025-12-31"
+    ],
+    "forecast_hour": 24,
+    "locations": {
+      "New Delhi": [
+        28.6139,
+        77.209
+      ],
+      "Mumbai": [
+        19.076,
+        72.8777
+      ],
+      "Bengaluru": [
+        12.9716,
+        77.5946
+      ],
+      "Kolkata": [
+        22.5726,
+        88.3639
+      ],
+      "Chennai": [
+        13.0827,
+        80.2707
+      ],
+      "Ahmedabad": [
+        23.0225,
+        72.5714
+      ],
+      "Hyderabad": [
+        17.385,
+        78.4867
+      ],
+      "Pune": [
+        18.5204,
+        73.8567
+      ],
+      "Jaipur": [
+        26.9124,
+        75.7873
+      ],
+      "Lucknow": [
+        26.8467,
+        80.9462
+      ]
+    },
+    "temperature_observation_proxy": "(IMD tmin + IMD tmax) / 2 for valid_time calendar day",
+    "precipitation_observation": "IMD daily rain for valid_time calendar day",
+    "method": "Two-component Gaussian-mixture BMA fit by SciPy maximum likelihood; precipitation uses log1p transform.",
+    "report": {
+      "temperature": {
+        "New Delhi": {
+          "samples": 615,
+          "weight_aifs": 0.32821555465875085,
+          "weight_gfs": 0.6717844453412491,
+          "aifs_sigma": 1.2965689267728338,
+          "gfs_sigma": 3.324530553572491
+        },
+        "Mumbai": {
+          "samples": 615,
+          "weight_aifs": 0.042763844992320964,
+          "weight_gfs": 0.957236155007679,
+          "aifs_sigma": 0.39035022723578056,
+          "gfs_sigma": 1.2957309215370854
+        },
+        "Bengaluru": {
+          "samples": 615,
+          "weight_aifs": 0.04233118266454068,
+          "weight_gfs": 0.9576688173354593,
+          "aifs_sigma": 0.4985846345446932,
+          "gfs_sigma": 1.3430735829283116
+        },
+        "Kolkata": {
+          "samples": 615,
+          "weight_aifs": 0.8810786099418052,
+          "weight_gfs": 0.1189213900581948,
+          "aifs_sigma": 1.4220954808777264,
+          "gfs_sigma": 1.0795447794291642
+        },
+        "Chennai": {
+          "samples": 615,
+          "weight_aifs": 0.320088073488354,
+          "weight_gfs": 0.679911926511646,
+          "aifs_sigma": 0.7736569791412492,
+          "gfs_sigma": 1.42375938273549
+        },
+        "Ahmedabad": {
+          "samples": 615,
+          "weight_aifs": 0.8854104456411652,
+          "weight_gfs": 0.11458955435883478,
+          "aifs_sigma": 2.327451079778271,
+          "gfs_sigma": 0.5573078535441871
+        },
+        "Hyderabad": {
+          "samples": 615,
+          "weight_aifs": 0.08945342767581643,
+          "weight_gfs": 0.9105465723241836,
+          "aifs_sigma": 0.5287519570354573,
+          "gfs_sigma": 1.891049379751167
+        },
+        "Pune": {
+          "samples": 615,
+          "weight_aifs": 0.2994091174759689,
+          "weight_gfs": 0.7005908825240311,
+          "aifs_sigma": 0.5391560739686467,
+          "gfs_sigma": 2.015729540631998
+        },
+        "Jaipur": {
+          "samples": 615,
+          "weight_aifs": 0.13476970727037985,
+          "weight_gfs": 0.8652302927296202,
+          "aifs_sigma": 0.9669900072642874,
+          "gfs_sigma": 2.4748605751661854
+        },
+        "Lucknow": {
+          "samples": 615,
+          "weight_aifs": 0.35982647366051496,
+          "weight_gfs": 0.640173526339485,
+          "aifs_sigma": 1.0829543639122856,
+          "gfs_sigma": 3.3372396974181573
+        }
+      },
+      "precipitation": {
+        "New Delhi": {
+          "samples": 607,
+          "weight_aifs": 0.2792140887402016,
+          "weight_gfs": 0.7207859112597984,
+          "aifs_sigma": 1.023974213825695,
+          "gfs_sigma": 0.029999999999999995
+        },
+        "Mumbai": {
+          "samples": 610,
+          "weight_aifs": 0.4724631821317277,
+          "weight_gfs": 0.5275368178682722,
+          "aifs_sigma": 1.0815359541415233,
+          "gfs_sigma": 0.029999999999999995
+        },
+        "Bengaluru": {
+          "samples": 604,
+          "weight_aifs": 0.5226316444340775,
+          "weight_gfs": 0.4773683555659225,
+          "aifs_sigma": 0.029999999999999995,
+          "gfs_sigma": 1.0018885900129342
+        },
+        "Kolkata": {
+          "samples": 605,
+          "weight_aifs": 0.654483598624158,
+          "weight_gfs": 0.34551640137584205,
+          "aifs_sigma": 0.029999999999999995,
+          "gfs_sigma": 1.1188871324995504
+        },
+        "Chennai": {
+          "samples": 608,
+          "weight_aifs": 0.3857436019224542,
+          "weight_gfs": 0.6142563980775457,
+          "aifs_sigma": 1.1144455630783425,
+          "gfs_sigma": 0.029999999999999995
+        },
+        "Ahmedabad": {
+          "samples": 611,
+          "weight_aifs": 0.32686363113548655,
+          "weight_gfs": 0.6731363688645134,
+          "aifs_sigma": 1.073982273240221,
+          "gfs_sigma": 0.029999999999999995
+        },
+        "Hyderabad": {
+          "samples": 609,
+          "weight_aifs": 0.3792851808079152,
+          "weight_gfs": 0.6207148191920848,
+          "aifs_sigma": 1.0309453539703575,
+          "gfs_sigma": 0.029999999999999995
+        },
+        "Pune": {
+          "samples": 612,
+          "weight_aifs": 0.41001882834683967,
+          "weight_gfs": 0.5899811716531603,
+          "aifs_sigma": 1.0797403335281022,
+          "gfs_sigma": 0.029999999999999995
+        },
+        "Jaipur": {
+          "samples": 607,
+          "weight_aifs": 0.7606139483006575,
+          "weight_gfs": 0.23938605169934246,
+          "aifs_sigma": 0.029999999999999995,
+          "gfs_sigma": 1.0747179701086258
+        },
+        "Lucknow": {
+          "samples": 603,
+          "weight_aifs": 0.2530147188743788,
+          "weight_gfs": 0.7469852811256212,
+          "aifs_sigma": 0.9972141285953349,
+          "gfs_sigma": 0.029999999999999995
+        }
+      }
+    }
+  }
+}
